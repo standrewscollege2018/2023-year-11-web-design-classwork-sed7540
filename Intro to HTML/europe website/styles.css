@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Starborn;
+    src: url("Starborn.otf");
+}
+h2{
+    font-family: Starborn;
+}
+h1{
+    font-family: Starborn;
+}
+body{
+    color: rgb(109, 192, 213);
+    background-color: rgb(89, 83, 88);
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.countrycontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.card{
+    margin: 10px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media only screen and (max-width:844px) {
+    body{
+        color: red;
+    }
+    h2{
+        font-family: "Comic Sans MS";
+    }
+    p{
+        display: none;
+    }
+}
